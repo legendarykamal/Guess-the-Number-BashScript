@@ -27,18 +27,18 @@ do
     elif [[ $guess -ge $num ]];then
         # echo "Debugger $[ turns ]"
         if [[ $(($turns-1)) == 1 ]]; then
-            echo "Try a smaller number: But $[ turns-1 ] turn left"
+            echo "Try a smaller number:  $[ turns-1 ] turn left"
         else 
-            echo "Try a smaller number: But $[ turns-1 ] turns left"
+            echo "Try a smaller number:  $[ turns-1 ] turns left"
         fi
 
     # guess is smaller than random number
     else
         if [[ $(($turns-1)) == 1 ]]; then
-            echo "Try a larger number: But $[ turns-1 ] turn left"
+            echo "Try a larger number: $[ turns-1 ] turn left"
 
         else 
-            echo "Try a larger number: But $[ turns-1 ] turns left"
+            echo "Try a larger number: $[ turns-1 ] turns left"
         fi
     fi
 
