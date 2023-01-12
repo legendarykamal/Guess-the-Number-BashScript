@@ -8,4 +8,5 @@
 
 2. Once the permissions are provided, play the game by executing *script1*
 
+`cd code`
 `./script1.sh`
