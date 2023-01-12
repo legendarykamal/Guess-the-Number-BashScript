@@ -1,4 +1,5 @@
-#Use this project locally:
+# Use this project locally:
+---
 
 1. Give the executable permissions to all the scripts present in the `code` folder.
 
