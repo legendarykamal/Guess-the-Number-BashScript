@@ -31,4 +31,4 @@ fi
 
 echo
 
-source script2.sh
+source script3.sh
