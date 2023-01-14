@@ -10,3 +10,16 @@
 
 `cd code`
 `./script1.sh`
+
+
+---
+**Using docker:**
+
+1. Pull the image from dockerhub
+
+-  `docker pull nitishkumar06/game`
+
+2. Run the container using this command
+   
+- `docker run -it nitishkumar06/game`
+
